@@ -25,6 +25,7 @@ sequelize.authenticate().then(function(){
 });
 
 var a = 5;
+var b = 2;
 
 var Corporate = require('./models/Corporate.js')(sequelize);
 var Shipment = require('./models/Shipment.js')(sequelize);
